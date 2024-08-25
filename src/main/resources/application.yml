@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: postgres-spring-boot-full-text-search
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres-full-text-search-db
+    username: postgres
+    password: root
+  jpa:
+    show-sql: true
+server:
+  port: 8080
